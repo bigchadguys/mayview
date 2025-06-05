@@ -1,6 +1,0 @@
-{
-  "parent": "mayview:item/beginner_fishing_rod",
-  "textures": {
-    "layer0": "mayview:item/beginner_fishing_rod_cast"
-  }
-}

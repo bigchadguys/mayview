@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mayview:iron_coin"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "mayview:copper_coin"
+  }
+}

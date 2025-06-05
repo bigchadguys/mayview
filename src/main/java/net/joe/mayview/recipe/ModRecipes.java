@@ -15,17 +15,6 @@ public class ModRecipes {
     public static final DeferredRegister<RecipeType<?>> TYPES =
             DeferredRegister.create(Registries.RECIPE_TYPE, Mayview.MOD_ID);
 
-    public static final DeferredHolder<RecipeSerializer<?>, RecipeSerializer<MorphiteSynthesizerRecipe>> MORPHITE_SYNTHESIZER_SERIALIZER =
-            SERIALIZERS.register("morphite_synthesizing", MorphiteSynthesizerRecipe.Serializer::new);
-
-    public static final DeferredHolder<RecipeType<?>, RecipeType<MorphiteSynthesizerRecipe>> MORPHITE_SYNTHESIZER_TYPE =
-            TYPES.register("morphite_synthesizing", () -> new RecipeType<>() {
-                @Override
-                public String toString() {
-                    return "morphite_synthesizing";
-                }
-            });
-
     public static void register(IEventBus eventBus) {
         SERIALIZERS.register(eventBus);
         TYPES.register(eventBus);

@@ -10,7 +10,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
-
 public class CoinPouchItem extends Item {
 
     public CoinPouchItem(Properties properties) {
@@ -20,15 +19,12 @@ public class CoinPouchItem extends Item {
     @Override
     public @NotNull InteractionResultHolder<ItemStack> use(@NotNull Level world, Player player, @NotNull InteractionHand hand) {
         ItemStack itemStack = player.getItemInHand(hand);
-
         if (!world.isClientSide()) {
             itemStack.consume(1, player);
-            player.addItem(new ItemStack(ModItems.COPPER_COIN.get(), RandomSource.create().nextInt(5) + 2));
-
+            int amount = RandomSource.create().nextInt(6) + 2;
+            ItemStack coins = new ItemStack(ModItems.COPPER_COIN.get(), amount);
+            player.spawnAtLocation(coins, 0.25F);
         }
         return InteractionResultHolder.success(itemStack);
     }
-
-
-
 }

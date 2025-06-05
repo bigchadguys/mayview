@@ -1,0 +1,5 @@
+{
+  "type": "mayview:add_coin_modifier",
+  "conditions": [],
+  "item": "mayview:coin_pouch"
+}

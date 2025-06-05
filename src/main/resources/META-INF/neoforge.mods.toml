@@ -18,6 +18,3 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 
 description='''${mod_description}'''
-
-[[mixins]]
-config="${modid}.mixins.json"

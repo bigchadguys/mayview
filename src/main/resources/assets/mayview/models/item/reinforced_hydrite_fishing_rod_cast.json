@@ -1,6 +1,0 @@
-{
-  "parent": "mayview:item/reinforced_hydrite_fishing_rod",
-  "textures": {
-    "layer0": "mayview:item/reinforced_hydrite_fishing_rod_cast"
-  }
-}

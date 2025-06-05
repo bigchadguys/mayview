@@ -1,10 +1,8 @@
 plugins {
     id 'java-library'
-    id 'eclipse'
     id 'idea'
     id 'maven-publish'
     id 'net.neoforged.gradle.userdev' version '7.0.170'
-    id 'org.jetbrains.kotlin.jvm' version '2.0.21'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -15,26 +13,6 @@ version = mod_version
 group = mod_group_id
 
 repositories {
-    maven {
-        name = "Fabric"
-        url = "https://maven.fabricmc.net/"
-    }
-    maven {
-        name = "Architectury"
-        url = "https://maven.architectury.dev/"
-    }
-    maven {
-        name = 'CurseForge'
-        url = 'https://www.cursemaven.com'
-    }
-    maven {
-        name = 'Kotlin for Forge'
-        url = 'https://thedarkcolour.github.io/KotlinForForge/'
-    }
-    maven {
-        name = "Impact Dev"
-        url = "https://maven.impactdev.net/repository/development/"
-    }
 }
 
 base {
@@ -80,10 +58,6 @@ configurations.configureEach {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "thedarkcolour:kotlinforforge-neoforge:5.6.0"
-    implementation "com.cobblemon:neoforge:1.6.1+1.21.1"
-    implementation "curse.maven:radical-cobblemon-trainers-api-1152792:6125980"
-    implementation "dev.architectury:architectury-neoforge:13.0.2"
 }
 
 tasks.withType(ProcessResources).configureEach {

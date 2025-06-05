@@ -1,139 +1,21 @@
 {
   "itemGroup.mayview.mayview_tab": "Mayview",
 
-  "item.mayview.raw_morphite": "Raw Morphite",
-  "item.mayview.morphite_ingot": "Morphite Ingot",
-
-  "block.mayview.morphite_ore": "Morphite Ore",
-  "block.mayview.deepslate_morphite_ore": "Deepslate Morphite Ore",
-
-  "block.mayview.tectonic_ore": "Tectonic Ore",
-  "block.mayview.deepslate_tectonic_ore": "Deepslate Tectonic Ore",
-
-  "item.mayview.ectoplasm": "Ectoplasm",
-  "item.mayview.spectrite_ingot": "Spectrite Ingot",
-  "item.mayview.mush": "Mush",
-  "item.mayview.ecolite_ingot": "Ecolite Ingot",
-  "item.mayview.mysterious_bubble": "Mysterious Bubble",
-  "item.mayview.hydrite_ingot": "Hydrite Ingot",
-  "item.mayview.everoak": "Everoak",
-  "item.mayview.petrafite_ingot": "Petrafite Ingot",
-  "item.mayview.tectonic_shard": "Tectonic Shard",
-  "item.mayview.tectrite_ingot": "Tectrite Ingot",
-
-  "item.mayview.honey_diamond": "Honey Diamond",
-
   "item.mayview.copper_coin": "Copper Coin",
   "item.mayview.iron_coin": "Iron Coin",
   "item.mayview.gold_coin": "Gold Coin",
   "item.mayview.diamond_coin": "Diamond Coin",
   "item.mayview.joe_coin": "Joe Coin",
   "item.mayview.piggy_bank": "Piggy Bank",
+  "item.mayview.coin_pouch": "Coin Pouch",
 
   "item.mayview.piggy_bank.tooltip.diamond": "%sx Diamond Coins",
   "item.mayview.piggy_bank.tooltip.gold": "%sx Gold Coins",
   "item.mayview.piggy_bank.tooltip.iron": "%sx Iron Coins",
   "item.mayview.piggy_bank.tooltip.copper": "%sx Copper Coins",
 
-  "item.mayview.honey_diamond_sword": "Honey Diamond Sword",
-  "item.mayview.honey_diamond_sword.tooltip.1": "§8Applies §6Slowness§r§8 on hit.",
-  "item.mayview.honey_diamond_pickaxe": "Honey Diamond Pickaxe",
-  "item.mayview.honey_diamond_axe": "Honey Diamond Axe",
-  "item.mayview.honey_diamond_shovel": "Honey Diamond Shovel",
-  "item.mayview.honey_diamond_hoe": "Honey Diamond Hoe",
-  "item.mayview.honey_diamond_helmet": "Honey Diamond Helmet",
-  "item.mayview.honey_diamond_chestplate": "Honey Diamond Chestplate",
-  "item.mayview.honey_diamond_leggings": "Honey Diamond Leggings",
-  "item.mayview.honey_diamond_boots": "Honey Diamond Boots",
+  "container.piggy_bank": "Piggy Bank"
 
-  "item.mayview.spectrite_sword": "Spectrite Sword",
-  "item.mayview.spectrite_helmet": "Spectrite Helmet",
-  "item.mayview.spectrite_chestplate": "Spectrite Chestplate",
-  "item.mayview.spectrite_leggings": "Spectrite Leggings",
-  "item.mayview.spectrite_boots": "Spectrite Boots",
 
-  "item.mayview.ecolite_hoe": "Ecolite Hoe",
-  "item.mayview.ecolite_helmet": "Ecolite Helmet",
-  "item.mayview.ecolite_chestplate": "Ecolite Chestplate",
-  "item.mayview.ecolite_leggings": "Ecolite Leggings",
-  "item.mayview.ecolite_boots": "Ecolite Boots",
-
-  "item.mayview.tectrite_pickaxe": "Tectrite Pickaxe",
-  "item.mayview.tectrite_helmet": "Tectrite Helmet",
-  "item.mayview.tectrite_chestplate": "Tectrite Chestplate",
-  "item.mayview.tectrite_leggings": "Tectrite Leggings",
-  "item.mayview.tectrite_boots": "Tectrite Boots",
-
-  "item.mayview.hydrite_helmet": "Hydrite Helmet",
-  "item.mayview.hydrite_chestplate": "Hydrite Chestplate",
-  "item.mayview.hydrite_leggings": "Hydrite Leggings",
-  "item.mayview.hydrite_boots": "Hydrite Boots",
-
-  "item.mayview.petrafite_axe": "Petrafite Axe",
-  "item.mayview.petrafite_helmet": "Petrafite Helmet",
-  "item.mayview.petrafite_chestplate": "Petrafite Chestplate",
-  "item.mayview.petrafite_leggings": "Petrafite Leggings",
-  "item.mayview.petrafite_boots": "Petrafite Boots",
-
-  "item.mayview.quicksilver": "Quicksilver",
-  "item.mayview.swiftite_ingot": "Swiftite Ingot",
-  "item.mayview.swiftite_shovel": "Swiftite Shovel",
-  "item.mayview.swiftite_helmet": "Swiftite Helmet",
-  "item.mayview.swiftite_chestplate": "Swiftite Chestplate",
-  "item.mayview.swiftite_leggings": "Swiftite Leggings",
-  "item.mayview.swiftite_boots": "Swiftite Boots",
-  "item.mayview.mouserat_spawn_egg": "Mouse Rat Spawn Egg",
-
-  "block.mayview.morphite_synthesizer": "Morphite Synthesizer",
-  "blockentity.mayview.morphite_synthesizer": "Morphite Synthesizer",
-
-  "item.mayview.coin_pouch": "Coin Pouch",
-
-  "item.mayview.copper_sword": "Copper Sword",
-  "item.mayview.copper_pickaxe": "Copper Pickaxe",
-  "item.mayview.copper_axe": "Copper Axe",
-  "item.mayview.copper_shovel": "Copper Shovel",
-  "item.mayview.copper_hoe": "Copper Hoe",
-  "item.mayview.copper_helmet": "Copper Helmet",
-  "item.mayview.copper_chestplate": "Copper Chestplate",
-  "item.mayview.copper_leggings": "Copper Leggings",
-  "item.mayview.copper_boots": "Copper Boots",
-
-  "item.mayview.amethyst_sword": "Amethyst Sword",
-  "item.mayview.amethyst_pickaxe": "Amethyst Pickaxe",
-  "item.mayview.amethyst_axe": "Amethyst Axe",
-  "item.mayview.amethyst_shovel": "Amethyst Shovel",
-  "item.mayview.amethyst_hoe": "Amethyst Hoe",
-  "item.mayview.amethyst_helmet": "Amethyst Helmet",
-  "item.mayview.amethyst_chestplate": "Amethyst Chestplate",
-  "item.mayview.amethyst_leggings": "Amethyst Leggings",
-  "item.mayview.amethyst_boots": "Amethyst Boots",
-
-  "item.mayview.emerald_sword": "Emerald Sword",
-  "item.mayview.emerald_pickaxe": "Emerald Pickaxe",
-  "item.mayview.emerald_axe": "Emerald Axe",
-  "item.mayview.emerald_shovel": "Emerald Shovel",
-  "item.mayview.emerald_hoe": "Emerald Hoe",
-  "item.mayview.emerald_helmet": "Emerald Helmet",
-  "item.mayview.emerald_chestplate": "Emerald Chestplate",
-  "item.mayview.emerald_leggings": "Emerald Leggings",
-  "item.mayview.emerald_boots": "Emerald Boots",
-
-  "item.mayview.raw_enderite": "Raw Enderite",
-  "item.mayview.enderite_ingot": "Enderite Ingot",
-  "entity.mayview.mouserat": "Mouse Rat Trader",
-
-  "item.mayview.worm": "Worm",
-  "item.mayview.gummy_worm": "Gummy Worm",
-  "block.mayview.fish_trap": "Fish Trap",
-  "container.piggy_bank": "Piggy Bank",
-
-  "item.mayview.beginner_fishing_rod": "Beginner Fishing Rod",
-  "item.mayview.intermediate_fishing_rod": "Intermediate Fishing Rod",
-  "item.mayview.advanced_fishing_rod": "Advanced Fishing Rod",
-  "item.mayview.professional_fishing_rod": "Professional Fishing Rod",
-  "item.mayview.expert_fishing_rod": "Expert Fishing Rod",
-  "item.mayview.hydrite_fishing_rod": "Hydrite Fishing Rod",
-  "item.mayview.reinforced_hydrite_fishing_rod": "Reinforced Hydrite Fishing Rod"
 
 }

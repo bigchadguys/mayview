@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    },
+    {
+      "item": "mayview:gold_coin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mayview:diamond_coin"
+  }
+}
